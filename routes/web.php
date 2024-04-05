@@ -19,3 +19,26 @@ Route::get('/', function () {
 
     return view('Home', compact("word"));
 });
+
+
+Route::get('/Pagina-1', function () {
+
+    $word = "Pagina 1";
+
+    return view('Pagina1', compact("word"));
+})->name=('Pagina 1');
+
+
+Route::get('/Pagina-2', function () {
+
+    $word = "Pagina 2";
+
+    return view('Pagina2', compact("word"));
+})->name('Pagina 2');
+
+Route::get('/Pagina-3', function () {
+
+    $word = "Pagina 3";
+
+    return view('Pagina3', compact("word"));
+})->name('Pagina 3');

@@ -1,0 +1,19 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+/* reset */
+
+
+nav{
+    display: flex;
+    justify-content: center;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    gap:40px;
+}
